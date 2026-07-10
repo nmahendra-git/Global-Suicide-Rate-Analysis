@@ -8,16 +8,16 @@ Analyzes global suicide trends using demographic (sex, age, generation), economi
 
 suicide-rate-analysis/
 ├── notebooks/
-│   └── 01_suicide_rate_analysis.ipynb   # Main notebook: run this end-to-end
+│   └── 01_suicide_rate_analysis.ipynb           # Main notebook: run this end-to-end
 ├── src/
-│   ├── data_loader.py                   # Loads & cleans the raw CSV
-│   ├── analysis.py                      # All aggregation / statistics functions
-│   └── visualize.py                     # All plotting functions
+│   ├── data_loader.py                           # Loads & cleans the raw CSV
+│   ├── analysis.py                              # All aggregation / statistics functions
+│   └── visualize.py                             # All plotting functions
 ├── data/
-│   └── sample_data.csv                  # Small synthetic dataset (so the project runs out of the box)
-├── visuals/                              # Saved chart images (generated when you run the notebook)
+│   └── sample_data.csv                          # Small synthetic dataset (so the project runs out of the box)
+├── visuals/                                     # Saved chart images (generated when you run the notebook)
 ├── reports/
-│   └── report.md                        # Report template — fill in your findings
+│   └── report.md                                # Report template — fill in your findings
 ├── requirements.txt
 ├── .gitignore
 └── README.md
